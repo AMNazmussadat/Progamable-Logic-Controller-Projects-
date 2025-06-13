@@ -16,3 +16,15 @@ A gravity-fed automated filling system controlled by Siemens S7-1200 PLC.
 ## Usage  
 1. Upload `LogoSoft_Program.lsc` to PLC.
 2. Report-PLC_Automating filling system 
+2nd Project:
+# PLC-Controlled PMDC Motor Speed Regulation  
+A Siemens PLC-based system to control RPM and direction of a PMDC motor via PWM.  
+
+## Features  
+- **Bidirectional Control**: CW/CCW rotation with push-button inputs.  
+- **Error Analysis**: <5% RPM error at 80V.  
+- **Industrial Tools**: TIA Portal ladder logic.  
+
+## Setup  
+1. Connect PLC outputs to motor driver.  
+2. File: Control the Speed of a Permanent Magnet DC.  
